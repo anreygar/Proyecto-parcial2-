@@ -1,0 +1,163 @@
+body {
+  text-align: justify;
+  width: 960px;
+  margin: auto;
+}
+
+header,
+footer {
+  border: 2px lightgray;
+  border-radius: 25px;
+  display: block;
+  background: #0b5394;
+  text-align: center;
+  font-family: sans-serif;
+  clear: both;
+}
+
+h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: #0b5394;
+   border-radius: 25px;
+  font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+h2 {
+  font-size: 25px;
+  color: white;
+  font-weight: lighter;
+  font-family: sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
+  margin: 10px;
+  
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: beige;
+}
+
+section {
+  border: none;
+  width: 71%;
+  display: inline-block;
+  float: left;
+  margin: 1px;
+}
+
+article {
+  background: white;
+  padding: none;
+  margin: 10px;
+  background: #3993e4;
+  border:10px;
+  border-radius: 25px;
+  
+}
+
+article footer {
+  padding: 10px;
+  margin: 10px;
+  color: black;
+  background: silver;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  text-align: justify;
+  border: none;
+}
+
+aside {
+  border:none;
+  border-radius: 25px;
+  width: 28%;
+  display: inline-block;
+  float: 10;
+  background: #9bddff;
+  text-align: right;
+  margin: 1px;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #0b5394;
+
+}
+
+p {
+  font-family: 'Assistant', sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  color: white;
+  padding: 5px;
+  margin: 10px;
+}
+
+a {
+  color: #2b0c56;
+  padding: 10px;
+  border-radius: 25px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+}
+a:hover{
+background-color: white;
+}
+
+time {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 10px;
+  color: #999;
+  padding: 20px;
+  font-style: italic;
+}
+
+
+img {
+ width: 50%
+}
+
+figure {
+  margin: 0px;
+ 
+}
+
+figcaption, .img-footer {
+    font-style: italic;
+    color: black;
+    font-size: 1.1em;
+    text-align: center;
+    margin: 10px 0px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.menu {
+  background-color: #0b5394;
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+   border-radius: 25px;
+
+}
+
+.menu li {
+  display: inline-flex;
+  text-decoration: none;
+  border-radius: 25px;
+  color: white;
+  padding:10px;
+  width: 150px;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-align: center;
+}
+.menu li:hover{
+background-color: #3993e4;
+}
+address {
+  font-family: 'Barlow Condensed'
+}
